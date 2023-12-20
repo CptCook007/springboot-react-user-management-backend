@@ -1,0 +1,11 @@
+spring:
+  output:
+    ansi:
+      enabled: ALWAYS
+  data:
+    mongodb:
+      uri: mongodb://admin:password@localhost:27017/
+      database: user-management-app
+  mvc:
+    pathmatch:
+      matching-strategy : ANT_PATH_MATCHER
