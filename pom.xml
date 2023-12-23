@@ -60,6 +60,11 @@
             <artifactId>spring-security-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>9.0.74</version>
+        </dependency>
     </dependencies>
 
     <build>
